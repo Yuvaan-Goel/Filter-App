@@ -1,0 +1,27 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-warning:hover
+{
+    background-color: black;
+}
+
+.btn-primary:hover
+{
+    background-color: yellow;
+    color: black;
+}
+
+canvas
+{
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+    from{box-shadow: 7px 7px 38px navy;}
+    to{box-shadow: 7px 7px 38px orange;}
+}
